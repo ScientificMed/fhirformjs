@@ -45,6 +45,7 @@
     "generator-nod"
   ],
   "dependencies": {
+    "@ahryman40k/ts-fhir-types": "^4.0.25",
     "fhirpath": "0.17.5"
   },
   "devDependencies": {

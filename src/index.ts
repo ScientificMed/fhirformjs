@@ -1,11 +1,14 @@
 
+ //
+ // const ffjs = require('./fhirform');
+ // const ffresp = require('./fhirform-resp');
 
- const ffjs = require('./fhirform');
- const ffresp = require('./fhirform-resp');
+ const ffvue = require('./ffvue');
 
  module.exports = {
-  fhirformjs: ffjs,
-  fhirformResp: ffresp
+  // fhirformjs: ffjs,
+  // fhirformResp: ffresp
+  fhirformvue:ffvue
 };
 
 

@@ -73,4 +73,4 @@ const _ffvue = (fhirjson) => {
 
 
 
-module.exports = {"ffvue": _ffvue}
+module.exports = {"_ffvue": _ffvue}
