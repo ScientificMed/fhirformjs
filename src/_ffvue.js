@@ -54,7 +54,8 @@ const processItems = (items) => {
 
 
 
-const ffvue = (fhirjson) => {
+// eslint-disable-next-line no-underscore-dangle
+const _ffvue = (fhirjson) => {
 
     const returnJson = {};
     this.properties = {};
@@ -72,4 +73,4 @@ const ffvue = (fhirjson) => {
 
 
 
-module.exports = {"ffvue": ffvue}
+module.exports = {"ffvue": _ffvue}

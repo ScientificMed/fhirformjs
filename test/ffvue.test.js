@@ -1,6 +1,6 @@
 /* eslint-env mocha */
 const fetch = require('isomorphic-fetch');
-const Ffvue = require('../src/ffvue');
+const Ffvue = require('../src/_ffvue');
 
 describe('ffvue', () => {
   it('should show id', async () => {
